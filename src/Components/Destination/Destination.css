@@ -1,0 +1,14 @@
+.hero-text{
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.hero-text img{
+    width: 350px;
+}
+
+.hero-text:hover{
+    border: #f9a51a 3px solid;
+    border-radius: 17px;
+}

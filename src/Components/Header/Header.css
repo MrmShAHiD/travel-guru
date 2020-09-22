@@ -1,0 +1,19 @@
+.navLink{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 25px;
+    display: flex;
+    justify-content: right;
+}
+
+li img {
+    height: 70px;
+    width: 150px;
+    margin-left:20px;
+    margin-top:20px;
+}
+
+.login{
+    background-color: '#F9A51A';
+}

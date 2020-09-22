@@ -1,0 +1,50 @@
+[debug] [2020-09-22T18:10:35.309Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T18:10:35.312Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shahi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-22T18:10:35.313Z] CLI Version:   8.10.0
+[debug] [2020-09-22T18:10:35.313Z] Platform:      win32
+[debug] [2020-09-22T18:10:35.313Z] Node Version:  v12.18.1
+[debug] [2020-09-22T18:10:35.316Z] Time:          Wed Sep 23 2020 00:10:35 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-22T18:10:35.316Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T18:10:35.317Z] 
+[debug] [2020-09-22T18:10:35.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-22T18:10:35.328Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\web development\projects\travel-guru
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2020-09-22T19:01:32.636Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T19:01:32.674Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shahi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-22T19:01:32.674Z] CLI Version:   8.10.0
+[debug] [2020-09-22T19:01:32.674Z] Platform:      win32
+[debug] [2020-09-22T19:01:32.675Z] Node Version:  v12.18.1
+[debug] [2020-09-22T19:01:32.978Z] Time:          Wed Sep 23 2020 01:01:32 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-09-22T19:01:32.978Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T19:01:32.979Z] 
+[debug] [2020-09-22T19:01:33.138Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-22T19:01:33.139Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\web development\projects\travel-guru
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
