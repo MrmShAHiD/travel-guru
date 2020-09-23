@@ -6,6 +6,7 @@ import firebaseConfig from "./firebase.config";
 import { UserContext } from "../../App";
 import SignUpForm from "../form/SignUpForm";
 import LoginForm from "../form/LoginForm";
+import './Login.css'
 
 const Login = () => {
     const [newUser, setNewUser] = useState(false);
@@ -229,7 +230,7 @@ const Login = () => {
 
     return (
         <div className="text-center">
-            <div className="container">
+            <div className="container form">
                 {
                     currentUser.success && (
                         <div class="alert alert-success" role="alert">
@@ -247,7 +248,26 @@ const Login = () => {
                 {
                     newUser ? (<SignUpForm formtoggle={handleFormToggle} formValid={handleFormValidation} submit={handleCreateNewUser} errors={errors}></SignUpForm>) : (<LoginForm formToggle={handleFormToggle} formValid={handleFormValidation} submit={handleSignInWithEmail} errors={errors}></LoginForm>)
                 }
-                
+                <div className="text-center">
+                    <p>Or,</p>
+                </div>
+                <div>
+                    <button className="btn signin-with-btn" onClick={handleSignInWithGoogle}>
+                        <div>
+                            <img style={{height:'40px'}} src={require("../../Icon/google.png")} alt=""/>
+                            <span>Sign in with Google</span>
+                        </div>
+                        
+                    </button>
+                    <button className="btn signin-with-btn" onClick={handleSignInWithFacebook}>
+                        <div>
+                            <img style={{height:'40px'}} src={require("../../Icon/fb.png")} alt=""/>
+                            <span>
+                                Sign in with Facebook
+                            </span>
+                        </div>
+                    </button>
+                </div>
             </div>
         </div>
     );
