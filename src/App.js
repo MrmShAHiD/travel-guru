@@ -16,6 +16,8 @@ import News from './Components/News/News';
 import Login from './Components/Login/Login';
 import NotMatch from './Components/NotMatch/NotMatch';
 import Booking from './Components/Booking/Booking';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
+import HotelInfo from './Components/HotelInfo/HotelInfo';
 
 export const UserContext = createContext();
 
@@ -52,6 +54,9 @@ function App() {
             <Route path="/booking/:id">
               <Booking/>
             </Route>
+            <PrivateRoute path="/hotels">
+              <HotelInfo/>
+            </PrivateRoute>
             <Route path="*">
               <NotMatch/>
             </Route>

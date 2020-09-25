@@ -42,11 +42,13 @@ const Header = () => {
                             <Link to="/contact" className="navLink">Contact</Link>
                         </li>
                         <li>
-                            {loggedInUser.isSignedIn ? (
-                                <button style={{marginTop:'20px'}} className="btn btn-warning" onClick={handleSignOut}>Sign Out</button>
-                            ) : (
-                                <button style={{marginTop:'20px'}} className="btn btn-warning" onClick={handleLogin}>Login</button>
-                            )}
+                            {
+                                loggedInUser.isSignedIn ? (
+                                    <button style={{marginTop:'20px'}} className="btn btn-warning" onClick={handleSignOut}>Sign Out</button>
+                                ) : (
+                                    <button style={{marginTop:'20px'}} className="btn btn-warning" onClick={handleLogin}>Login</button>
+                                )
+                            }
                         </li>
                         <li>
                             {
